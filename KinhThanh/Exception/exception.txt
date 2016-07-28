@@ -3,7 +3,7 @@ http://hoithanhsucsongmoi.blogspot.com/2013/12/21-giang.html -fixed
 http://hoithanhsucsongmoi.blogspot.com/2013/12/3-ro-ma.html - fixed
 http://hoithanhsucsongmoi.blogspot.com/2013/12/13-1-co-rinh-to.html - fixed
 http://hoithanhsucsongmoi.blogspot.com/2013/12/16-1-co-rinh-to.html - fixed
-http://hoithanhsucsongmoi.blogspot.com/2013/12/2-he-bo-ro.html
+http://hoithanhsucsongmoi.blogspot.com/2013/12/2-he-bo-ro.html - fixed
 http://hoithanhsucsongmoi.blogspot.com/2013/06/1-genesis-sang-ky.html
 http://hoithanhsucsongmoi.blogspot.com/2013/06/2-genesis-sang-ky.html
 http://hoithanhsucsongmoi.blogspot.com/2013/06/3-genesis-sang-ky.html
@@ -155,8 +155,8 @@ http://hoithanhsucsongmoi.blogspot.com/2013/11/20-gio-sue.html
 http://hoithanhsucsongmoi.blogspot.com/2013/11/21-gio-sue.html
 http://hoithanhsucsongmoi.blogspot.com/2013/11/22-gio-sue.html
 http://hoithanhsucsongmoi.blogspot.com/2013/11/24-gio-sue.html
-http://hoithanhsucsongmoi.blogspot.com/2013/12/11-1-sa-mu-en.html
-http://hoithanhsucsongmoi.blogspot.com/2013/12/24-1-sa-mu-en.html
+http://hoithanhsucsongmoi.blogspot.com/2013/12/11-1-sa-mu-en.html - fixed
+http://hoithanhsucsongmoi.blogspot.com/2013/12/24-1-sa-mu-en.html - fixed
 http://hoithanhsucsongmoi.blogspot.com/2013/12/15-1-cac-vua.html
 http://hoithanhsucsongmoi.blogspot.com/2013/12/17-2-su-ky.html
 http://hoithanhsucsongmoi.blogspot.com/2013/12/10-e-xo-te.html
