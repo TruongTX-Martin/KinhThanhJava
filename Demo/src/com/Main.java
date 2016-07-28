@@ -24,7 +24,11 @@ public class Main {
 	private String textDoan = "";
 
 	public Main() {
-		getMainContent();
+//		getMainContent();
+		listTanUoc.add("http://hoithanhsucsongmoi.blogspot.com/2013/06/1-leviticus-le-vi-ky.html");
+//		listTanUoc.add("http://hoithanhsucsongmoi.blogspot.com/2013/06/1-exodus-xuat-e-dip-to-ky.html");
+//		listTanUoc.add("http://hoithanhsucsongmoi.blogspot.com/2013/06/1-leviticus-le-vi-ky.html");
+//		listTanUoc.add("http://hoithanhsucsongmoi.blogspot.com/2013/11/1-gio-sue.html");
 		if(listTanUoc.size() > 0) {
 			for(int i=0; i< listTanUoc.size(); i++){
 				String itemTanUoc = listTanUoc.get(i);
@@ -35,16 +39,16 @@ public class Main {
 				saveFileBook(itemTanUoc);
 			}
 		}
-		if(listCuuUoc.size() > 0){
-			for(int i=0; i< listCuuUoc.size(); i++){
-				String itemCuuUoc = listCuuUoc.get(i);
-				File file = new File("/home/xuantruong/Documents/KinhThanh/" + getNameFileSave(itemCuuUoc) + ".txt");
-				if(file.exists()){
-					continue;
-				}
-				saveFileBook(itemCuuUoc);
-			}
-		}
+//		if(listCuuUoc.size() > 0){
+//			for(int i=0; i< listCuuUoc.size(); i++){
+//				String itemCuuUoc = listCuuUoc.get(i);
+//				File file = new File("/home/xuantruong/Documents/KinhThanh/" + getNameFileSave(itemCuuUoc) + ".txt");
+//				if(file.exists()){
+//					continue;
+//				}
+//				saveFileBook(itemCuuUoc);
+//			}
+//		}
 		if(listURLException.size() > 0) {
 			for (String urlExcep : listURLException) {
 				System.err.println(urlExcep);
@@ -94,7 +98,7 @@ public class Main {
 		System.out.println("Doan");
 		textDoan += "phandoan" + "\n";
 		String detail = getContentFromUrl(url);
-		String content = detail.substring(detail.lastIndexOf("<div align=\"left\" class=\"text\">"), detail.length());
+		String content = detail.substring(detail.lastIndexOf("<a name='more'></a>"), detail.length());
 		String[] arrayContent = content.split("<span");
 		for (int i=0; i< arrayContent.length; i++) {
 			String itemContent = arrayContent[i];
@@ -108,7 +112,7 @@ public class Main {
 //				System.out.println("Cau " + i + ":"+arrayItem[1]);
 			}
 		}
-			File file = new File("/home/xuantruong/Documents/KinhThanh/" + getNameFileSave(url) + ".txt");
+			File file = new File("/home/truongtechno/Documents/KinhThanh/" + getNameFileSave(url) + ".txt");
 			if (!file.exists()) {
 				file.createNewFile();
 			}
