@@ -107,12 +107,12 @@ public class Main {
 				if(arrayItem[1].contains("<br />")){
 					arrayItem[1] = arrayItem[1].replace("<br />", "");
 				}
-				textDoan = textDoan + arrayItem[1] +"\nphancau\n";
+				textDoan = textDoan + arrayItem[1] +"phancau\n";
 				//chia cau o đây 
 //				System.out.println("Cau " + i + ":"+arrayItem[1]);
 			}
 		}
-			File file = new File("/home/truongtechno/Documents/KinhThanh/" + getNameFileSave(url) + ".txt");
+			File file = new File("/home/xuantruong/Documents/KinhThanh/" + getNameFileSave(url) + ".txt");
 			if (!file.exists()) {
 				file.createNewFile();
 			}
